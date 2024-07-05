@@ -5,7 +5,10 @@ import Image from 'next/image';
 
 const Header = () => {
     return (
-        <section className={styles.headerSection}>
+        <section  
+            className={styles.headerSection}
+            id="inicio"    
+        >
             <div className={styles.profileContainer}>
             <Image src={profilePic} alt="Profile" className={styles.profileImage}  />
                 <h2 className={styles.userName}>Pedro Gonzalez</h2>
