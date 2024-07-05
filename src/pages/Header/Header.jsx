@@ -2,7 +2,6 @@ import styles from './Header.module.css';
 
 import profilePic from '../../assets/image-profile.png'
 import Image from 'next/image';
-import About from '../About/About';
 
 const Header = () => {
     return (
