@@ -16,8 +16,8 @@ Este proyecto tiene como objetivo proporcionar una página de perfil de usuario 
 ## Instalacion
 1. Clona este repositorio en tu computadora:
    ```bash
-   git clone https://github.com/tu_usuario/user-profile.git
-2. cd user-profile
+   git clone https://github.com/agustinfraile/prueba-tecnica-profile.git
+2. cd prueba-tecnica-profile
 3. npm install
 
 ## Ejecución
