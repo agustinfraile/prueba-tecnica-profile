@@ -30,36 +30,41 @@ const Navbar = () => {
             </div>
             <ul className={`${styles.navLinks} ${isOpen ? styles.navLinksOpen : ''}`}>
                 <li className={styles.navItem}>
-                    <Link
-                        href="#inicio"
-                        className={styles.navLink}
+                    <Link 
+                        href="#inicio" 
+                        className={styles.navLink} 
                         onClick={(e) => handleSmoothScroll(e, "#inicio")}
-                    >Inicio
+                    >
+                        Inicio
                     </Link>
                 </li>
                 <li
                     className={styles.navItem}>
-                    <Link
-                        href="#sobre-mi"
-
-                        className={styles.navLink}
+                    <Link 
+                        href="#sobre-mi" 
+                        
+                        className={styles.navLink} 
                         onClick={(e) => handleSmoothScroll(e, "#sobre-mi")}
                     >
                         Sobre mí
                     </Link>
                 </li>
                 <li className={styles.navItem}>
-                    <Link
-                        href="#intereses"
-
-
-                        className={styles.navLink} onClick={(e) => handleSmoothScroll(e, "#intereses")}>Intereses
+                    <Link 
+                        href="#intereses" 
+                        className={styles.navLink} 
+                        onClick={(e) => handleSmoothScroll(e, "#intereses")}
+                    >
+                        Intereses
                     </Link>
                 </li>
                 <li className={styles.navItem}>
-                    <Link href="#contacto"
-                        className={styles.navLink}
-                        onClick={(e) => handleSmoothScroll(e, "#contacto")}>Contacto
+                    <Link 
+                        href="#contacto" 
+                        className={styles.navLink} 
+                        onClick={(e) => handleSmoothScroll(e, "#contacto")}
+                    >
+                        Contacto
                     </Link>
                 </li>
             </ul>
